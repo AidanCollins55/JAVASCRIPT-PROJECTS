@@ -16,12 +16,21 @@
     float: right;
 }
 
-.left{
+/*sets the size menu on the left of the screen*/
+.left {
     width: 200px;
     height: 200px;
     float: left;
 }
 
+/*centers the vegetable toppings list*/
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/*sets the meat toppings list to the right*/
 .right {
     width: 200px;
     height: 200px;
@@ -36,7 +45,8 @@
 }
 
 #cart {
-    top: 0; margin: 0px auto;
+    top: 0;
+    margin: 0px auto;
     width: 400px;
     height: 200px;
 }
@@ -52,16 +62,16 @@ body {
 }
 
 h1 {
-    font-family:'Courier New', Courier, monospace;
-    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
 }
 
-h3{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:aqua;
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
 }
 
 div {
-    font-family:'Times New Roman', Times, serif;
-    color:aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    color: aquamarine;
 }
