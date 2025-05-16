@@ -1,3 +1,4 @@
+/*imports a custom font*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 :root {
@@ -11,7 +12,7 @@ p {
   font-size: 2rem;
   color: rgb(46, 46, 46);
 }
-
+/*Styles and positions the <p>*/
 p {
   font-weight: 800;
   font-size: 1.5rem;
@@ -21,7 +22,7 @@ p {
 #tkuMsg {
   margin-top: 45px;
 }
-
+/*creates the container class for the newsletter*/
 .container {
   display: inline-flexbox;
   margin-top: 15%;
@@ -62,14 +63,14 @@ form input {
   }
 }
 
-
+/*Adds styling when the name and email are inputed*/
 form input:focus {
   border: 2px solid #ff9100;
   color: black;
   outline: none;
   transition: 0.3s ease-out;
 }
-
+/*Styling for the submit button*/
 .btn {
   background-color: rgb(46, 46, 46);
   border: none;
@@ -83,7 +84,7 @@ form input:focus {
   color: #fff;
   cursor: pointer;
 }
-
+/*changes the color of the submit button when hovered over*/
 .btn:hover {
   background-color: rgb(77, 77, 77);
   border-bottom: 3px solid #ff9100;
